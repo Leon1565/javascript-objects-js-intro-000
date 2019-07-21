@@ -6,7 +6,7 @@ function updatePlaylist(thePlaylist, artistName, songTitle){
 }
 updatePlaylist(playlist, 'My Bloody Valentine', 'Slowdive');
 function removeFromPlaylist(thePlaylist, artistName){
-  delete thePlaylist.artistName;
+  delete thePlaylist.[artistName];
   return thePlaylist;
 }
 removeFromPlaylist(playlist, 'Slowdive');
