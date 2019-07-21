@@ -9,4 +9,4 @@ function removeFromPlaylist(thePlaylist, artistName){
   delete thePlaylist.artistName;
   return thePlaylist;
 }
-removeFromPlaylist(playlist, 'Slowdive');
+removeFromPlaylist(playlist, playlist.Slowdive);
